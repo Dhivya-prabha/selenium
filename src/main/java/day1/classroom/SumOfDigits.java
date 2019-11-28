@@ -22,13 +22,16 @@ public class SumOfDigits {
 	public static void main(String[] args) {
 
 		// Declare your input number (int)
+		int sum = 0, number = 123;
 
 		// Initialize an integer variable by name: sum
-
 		// Use loop to calculate the sum: which loop to use until the number goes less than 10??
 
-		// Within loop: get the remainder when done by 10 -> Tip: use mod
-
+		for(int i=0; i<=10; i++)
+		{// Within loop: get the remainder when done by 10 -> Tip: use mod
+			int remainder = number%10;
+			sum += remainder;
+			number = number/10;			
 			// Print the remainder to confirm
 	
 			// Within loop: add that remainder to the sum
@@ -39,7 +42,8 @@ public class SumOfDigits {
 	
 			// Print the quotient to confirm
 		
-		// Outside the loop: print the final sum
+		}// Outside the loop: print the final sum
+		System.out.println(sum);
 	}
 
 }

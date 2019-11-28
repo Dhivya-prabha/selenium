@@ -1,4 +1,4 @@
-package day1.assignments;
+package day.assignment;
 
 public class FibonacciSeries {
 	
@@ -21,11 +21,19 @@ public class FibonacciSeries {
 	
 	public static void main(String[] args) {
 		
-		int range = 8, firstNum = 0; secNum = 1;
+		int range = 5, firstNum = 0, secNum = 1, count;
 		// initialize 3 int variables (Tip: range & firstNum, secNum in the series)
+		System.out.println(firstNum);
+		//System.out.println(secNum);
 		for (int i=0; i<=range; i++)
+		{
+		count = firstNum + secNum;
+		secNum = firstNum;
+		firstNum = count;
+		System.out.println(count);
+		}
 		// Iterate from 1 to the range
-		
+		 
 			// Print first number 
 			
 			// add first and second number

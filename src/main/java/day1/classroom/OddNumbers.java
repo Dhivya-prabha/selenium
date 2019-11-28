@@ -29,7 +29,7 @@ public class OddNumbers {
 			if(i%2 == 1)
 			{
 		
-		System.out.println(i + "is odd number");
+		System.out.println(i);
 			}
 		
 			

@@ -25,14 +25,15 @@ public class Factorial {
 
 		// Declare your input number
 		
-		int fact = 1;
+		int fact = 1, input = 5;
 		
-		for(int i=1;i<=7;i++)
+		
+		for(int i=1;i<=input;i++)
 		{
-			int abc = i;
+			fact = fact*i;
 			
-		System.out.println(abc*i);
-		}
+		//System.out.println(abc*i);
+		}System.out.println(fact);
 		// Declare and initialize an integer variable by name: fact
 		
 
